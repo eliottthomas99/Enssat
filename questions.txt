@@ -1,0 +1,13 @@
+Question : à quoi correspond chaque élément de l’url ?
+
+http : protocole
+
+localhost : serveur hote
+
+8080 : port
+
+Enssat : Répertoire
+
+HelloWorld : Sous répertoire
+
+quel est le contenu affiché dans le navigateur : acceuil

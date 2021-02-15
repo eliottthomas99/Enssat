@@ -44,6 +44,7 @@ public class BookDAOImpl implements BookDAO{
 	@Override
 	public List<Book> findByTitle(String searchText) {
 		//Récupérer une connexion de type java.sql.Connection par la méthode : 
+				System.out.println(DBManager.getInstance().getConnection());
 				Connection connexion = DBManager.getInstance().getConnection();
 				
 				
